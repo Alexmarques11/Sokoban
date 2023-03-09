@@ -29,3 +29,5 @@ C:\Users\Utilizador\Documents\Projetos C, C#\TDV\SokobanPM\Sokoban\Sokoban\bin\D
 C:\Users\Utilizador\Documents\Projetos C, C#\TDV\SokobanPM\Sokoban\Sokoban\bin\Debug\net6.0\Content\Crate_Brown.xnb
 C:\Users\Utilizador\Documents\Projetos C, C#\TDV\SokobanPM\Sokoban\Sokoban\bin\Debug\net6.0\Content\EndPoint_Blue.xnb
 C:\Users\Utilizador\Documents\Projetos C, C#\TDV\SokobanPM\Sokoban\Sokoban\bin\Debug\net6.0\Content\Wall_Gray.xnb
+C:\Users\Utilizador\Documents\Projetos C, C#\TDV\SokobanPM\Sokoban\Sokoban\bin\Debug\net6.0\Content\tree.xnb
+C:\Users\Utilizador\Documents\Projetos C, C#\TDV\SokobanPM\Sokoban\Sokoban\bin\Debug\net6.0\Content\CrateDark_Black.xnb
