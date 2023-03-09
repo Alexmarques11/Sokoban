@@ -6,15 +6,11 @@
   <SourceFiles>
     <File>C:/Users/Utilizador/Documents/Projetos C, C#/TDV/SokobanPM/Sokoban/Sokoban/Content/Character4.png</File>
     <File>C:/Users/Utilizador/Documents/Projetos C, C#/TDV/SokobanPM/Sokoban/Sokoban/Content/Crate_Brown.png</File>
-    <File>C:/Users/Utilizador/Documents/Projetos C, C#/TDV/SokobanPM/Sokoban/Sokoban/Content/CrateDark_Black.png</File>
     <File>C:/Users/Utilizador/Documents/Projetos C, C#/TDV/SokobanPM/Sokoban/Sokoban/Content/EndPoint_Blue.png</File>
     <File>C:/Users/Utilizador/Documents/Projetos C, C#/TDV/SokobanPM/Sokoban/Sokoban/Content/File.spritefont</File>
     <File>C:/Users/Utilizador/Documents/Projetos C, C#/TDV/SokobanPM/Sokoban/Sokoban/Content/tree.png</File>
-    <File>C:/Users/Utilizador/Documents/Projetos C, C#/TDV/SokobanPM/Sokoban/Sokoban/Content/Wall_Gray.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
