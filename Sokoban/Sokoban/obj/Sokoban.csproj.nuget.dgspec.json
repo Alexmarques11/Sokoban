@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[3.8.1.303, )"
             },
+            "MonoGame.Extended.Tiled": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
               "version": "[3.8.1.303, )"
@@ -65,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Sokoban
@@ -16,6 +17,8 @@ namespace Sokoban
         private Texture2D player, dot, box, wall; //Load images Texture
         int tileSize = 64; //potencias de 2 (operações binárias)
         private Player sokoban;
+        public List<Point> boxes;
+        private Game1 game;
 
         public Game1()
         {
@@ -59,6 +62,7 @@ namespace Sokoban
 
             // TODO: Add your update logic here
 
+            sokoban.Update(gameTime);   
             base.Update(gameTime);
         }
 
@@ -100,6 +104,13 @@ namespace Sokoban
             position.Y = sokoban.Position.Y * tileSize; //posição do Player
             _spriteBatch.Draw(player, position, Color.White); //desenha o Player
 
+            foreach (Point b in boxes)
+            {
+                position.X = b.X * tileSize;
+                position.Y = b.Y * tileSize;
+                _spriteBatch.Draw(box, position, Color.White);
+            }
+
             _spriteBatch.End();
 
             base.Draw(gameTime);
@@ -113,14 +124,21 @@ namespace Sokoban
             nrLinhas = linhas.Length;
             nrColunas = linhas[0].Length;
 
+
             level = new char[nrColunas, nrLinhas];
+            boxes = new List<Point>();
             for (int x = 0; x < nrColunas; x++)
             {
                 for (int y = 0; y < nrLinhas; y++)
                 {
-                    if (linhas[y][x] == 'Y')
+                    if (linhas[y][x] == '#')
                     {
-                        sokoban = new Player(x, y);
+                        boxes.Add(new Point(x, y));
+                        level[x, y] = ' '; // put a blank instead of the box '#'
+                    }
+                    else if (linhas[y][x] == 'Y')
+                    {
+                        sokoban = new Player(this, x, y);
                         level[x, y] = ' '; // put a blank instead of the sokoban 'Y'
                     }
                     else
@@ -130,9 +148,23 @@ namespace Sokoban
                 }
             }
 
-
+        }
+        public bool HasBox(int x, int y)
+        {
+            foreach (Point b in boxes)
+            {
+                if (b.X == x && b.Y == y) return true; // se a caixa tiver a mesma posição do Player
+            }
+            return false;
         }
 
+        public bool FreeTile(int x, int y)
+        {
+            if (level[x, y] == 'X') return false; // se for uma parede está ocupada
+            if (HasBox(x, y)) return false; // verifica se é uma caixa
+            return true;
+            /* The same as: return level[x,y] != 'X' && !HasBox(x,y); */
+        }
 
     }
 }

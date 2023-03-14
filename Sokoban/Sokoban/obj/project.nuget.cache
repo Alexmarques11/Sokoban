@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "LPqJcR5ocGeYRTeWDU49XtMFUEntHce+R3j/6AW1ZNRcIbsH25QU0ga98CPQFG+IJ0bIOoMJCwxVudruFrB4BQ==",
+  "dgSpecHash": "0FD0x04euQ9+cz2GouRcV0obXWSJ8HC9C4mDv0cGYrLypf7kgPKDyQB9DiupOPrwllnEuOzJ2x6165cwk/o+Vw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Utilizador\\Documents\\Projetos C, C#\\TDV\\SokobanPM\\Sokoban\\Sokoban\\Sokoban.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Utilizador\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\Utilizador\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\Utilizador\\.nuget\\packages\\monogame.extended\\3.8.0\\monogame.extended.3.8.0.nupkg.sha512",
+    "C:\\Users\\Utilizador\\.nuget\\packages\\monogame.extended.graphics\\3.8.0\\monogame.extended.graphics.3.8.0.nupkg.sha512",
+    "C:\\Users\\Utilizador\\.nuget\\packages\\monogame.extended.tiled\\3.8.0\\monogame.extended.tiled.3.8.0.nupkg.sha512",
+    "C:\\Users\\Utilizador\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Utilizador\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
